@@ -9,7 +9,7 @@ we_poi_num = len(locations);
 col2 = df_s.iloc[:,1]
 col2 = col2[:7] 
 data_1 = df.iloc[1:we_poi_num+1, 5] ;team_1 = data_1.tolist();team_1 = [str(x) for x in team_1];
-font_size = int(col2[0]);color_1 = eval(col2[1]);color_2 = eval(col2[2]);color_3 = eval(col2[3]);black = (0, 0, 0, 250);
+font_size = int(col2[0]);color_1 = eval(col2[2]);color_3 = eval(col2[3]);black = (0, 0, 0, 250);
 image_path = 'we.jpg' ;
 font_path = col2[4];
 image = Image.open(image_path)
